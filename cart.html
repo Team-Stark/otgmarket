@@ -1,0 +1,84 @@
+<!DOCTYPE hmtl>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+	</head>
+	<body>
+		<h1 style="margin-left:145px; margin-top:100px; margin-bottom:50px;">My Cart: </h1>
+		<!-- Need to have these each row made for each different item in cart -->
+		<div class="grid">
+			<div class="row">
+				<div class="colspan-2 offset-2">
+					<p>Publix Lettuce $1.50</p>
+				</div>
+				<div class="colspan-1 offset-1">
+					<p style="margin-right: 15px;">Quantity: </p>
+				</div>
+				<div class="colspan-3">
+					<input type="text" data-role="spinner" data-buttons-position="right" data-min-value="0" data-max-value="99" data-default-value="0">
+				</div>
+				<div class="colspan-1">
+					<button class="button primary large" style="margin-left:25px;">Remove</button>
+				</div>
+			</div>
+			<div class="row" style="margin-top:20px;">
+				<div class="colspan-2 offset-2">
+					<p>Publix Lettuce $1.50</p>
+				</div>
+				<div class="colspan-1 offset-1">
+					<p style="margin-right: 15px;">Quantity: </p>
+				</div>
+				<div class="colspan-3">
+					<input type="text" data-role="spinner" data-buttons-position="right" data-min-value="0" data-max-value="99" data-default-value="0">
+				</div>
+				<div class="colspan-1">
+					<button class="button primary large" style="margin-left:25px;">Remove</button>
+				</div>
+			</div>
+			<div class="row" style="margin-top:20px;">
+				<div class="colspan-2 offset-2">
+					<p>Publix Lettuce $1.50</p>
+				</div>
+				<div class="colspan-1 offset-1">
+					<p style="margin-right: 15px;">Quantity: </p>
+				</div>
+				<div class="colspan-3">
+					<input type="text" data-role="spinner" data-buttons-position="right" data-min-value="0" data-max-value="99" data-default-value="0">
+				</div>
+				<div class="colspan-1">
+					<button class="button primary large" style="margin-left:25px;">Remove</button>
+				</div>
+			</div>
+		</div>
+		<!-- Need to have this section add up prices of all items, then calculate taxes and total -->
+		<div class="row" style="margin-top:100px;">
+			<div class="colspan-2 offset-8">
+				<p>Base Price: $4.50</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="colspan-2 offset-8">
+				<p>Tax: $.50</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="colspan-2 offset-8">
+				<p>Delivery: $2.50</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="colspan-2 offset-8">
+				<p style="font-weight:bold;">Total: $7.50</p>
+			</div>
+		</div>
+		<div class="row" style="margin-top:50px">
+			<div class="colspan-2 offset-8">
+				<button class="button primary large" style="margin-left:25px;">Check Out</button>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdn.metroui.org.ua/v4/js/metro.min.js"></script>
+	</body>
+</html>
